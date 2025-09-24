@@ -72,12 +72,14 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Usage
 
+### Command Line Interface
+
 1. **Activate the virtual environment** (if not already activated):
    ```bash
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-2. **Run the application**:
+2. **Run the command-line application**:
    ```bash
    python email_sender.py
    ```
@@ -88,6 +90,30 @@ OPENAI_API_KEY=your_openai_api_key
    - Choose to generate a message with AI or write your own
    - Optionally attach files
    - Review and send the email
+
+### Graphical User Interface (GUI)
+
+1. **Make sure you have all dependencies installed**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the GUI application**:
+   ```bash
+   python email_gui.py
+   ```
+
+3. **Using the GUI**:
+   - Enter the recipient's email address in the "To" field
+   - Add a subject line
+   - Write your message or use the AI to generate one
+   - Click "Add Attachment" to attach files if needed
+   - Click "Send Email" to send your message
+
+#### AI Message Generation
+   - Type a prompt in the text field at the bottom
+   - Click "Generate with AI" to create a message based on your prompt
+   - The generated message will appear in the message area
 
 ## Example Workflow
 
