@@ -1,17 +1,17 @@
-# 📧 Email Sender with AI Assistant
+# Email Sender with AI Assistant
 
 A powerful Python application that lets you send emails with AI-generated messages using OpenAI's API. Perfect for automating emails with a personal touch!
 
-## ✨ Features
+## Features
 
-- 📨 Send emails to any recipient with custom subjects and messages
-- 🤖 Generate email content using OpenAI's GPT-3.5
-- 📎 Attach multiple files to your emails
-- 🎨 Beautiful command-line interface with emojis
-- 🔒 Secure configuration using environment variables
-- 🛡️ Supports Gmail App Passwords for enhanced security
+- Send emails to any recipient with custom subjects and messages
+- Generate email content using OpenAI's GPT-3.5
+- Attach multiple files to your emails
+- Beautiful command-line interface
+- Secure configuration using environment variables
+- Supports Gmail App Passwords for enhanced security
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ A powerful Python application that lets you send emails with AI-generated messag
    ```
    Edit the `.env` file with your email and API credentials.
 
-## 🔐 Gmail Setup (Recommended)
+## Gmail Setup (Recommended)
 
 1. Go to your [Google Account Settings](https://myaccount.google.com/)
 2. Enable **2-Step Verification**
@@ -55,7 +55,7 @@ A powerful Python application that lets you send emails with AI-generated messag
    - Copy the generated 16-character password
 4. Use this password in your `.env` file for `SENDER_PASSWORD`
 
-## ⚙️ Configuration
+## Configuration
 
 Edit the `.env` file with your details:
 
@@ -70,7 +70,7 @@ SENDER_PASSWORD=your_app_password  # 16-char App Password for Gmail
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## 💻 Usage
+## Usage
 
 1. **Activate the virtual environment** (if not already activated):
    ```bash
@@ -89,29 +89,29 @@ OPENAI_API_KEY=your_openai_api_key
    - Optionally attach files
    - Review and send the email
 
-## 📝 Example Workflow
+## Example Workflow
 
 ```bash
 $ python email_sender.py
-📧 Email Sender with AI Assistant
+Email Sender with AI Assistant
 ==============================
 
-📨 Recipient's email address: example@example.com
-📝 Email subject: Let's Collaborate!
+Recipient's email address: example@example.com
+Email subject: Let's Collaborate!
 
-🤖 Would you like to generate the message with AI? (y/n): y
+Would you like to generate the message with AI? (y/n): y
 
-💡 Enter a prompt to generate your email message: 
+Enter a prompt to generate your email message: 
 Write a professional email to a potential collaborator about working together on a new project
 
 [AI generates the message...]
 
-📎 Add an attachment? (y/n): n
+Add an attachment? (y/n): n
 
 [Review and send the email...]
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -128,11 +128,11 @@ Write a professional email to a potential collaborator about working together on
    - Verify SMTP server and port settings
    - Try allowing less secure apps in your email settings (not recommended)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Uses [OpenAI's API](https://platform.openai.com/) for AI message generation
 - Built with Python's built-in `smtplib` and `email` libraries
